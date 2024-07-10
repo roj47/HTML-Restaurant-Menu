@@ -1,5 +1,6 @@
 html,
-body {
+#backGround {
+    background-color: #6679d2;
     margin: 0;
     padding: 0;
     background-color: beige;
@@ -30,6 +31,8 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
+    
 }
 
 nav ul {
@@ -72,6 +75,15 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
+
+
+}
+.boxes {
+width: auto;
+display: flex;
+flex-direction: row;
+
 }
 
 table {
